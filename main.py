@@ -75,6 +75,4 @@ def printit():
 
     print "one loop : %s" % filename
 
-    printit()
-
 printit()
