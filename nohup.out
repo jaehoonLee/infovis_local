@@ -1,0 +1,15 @@
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+Exception KeyboardInterrupt in <module 'threading' from '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.pyc'> ignored
+one loop : 2015-09-18 01:04:45
+one loop : 2015-09-18 01:04:55
+one loop : 2015-09-18 01:05:05
+one loop : 2015-09-18 01:07:39
+one loop : 2015-09-18 01:07:46
+Traceback (most recent call last):
+  File "main.py", line 81, in <module>
+    printit()
+  File "main.py", line 79, in printit
+    printit()
+  File "main.py", line 78, in printit
+    time.sleep(5)
+KeyboardInterrupt

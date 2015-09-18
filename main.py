@@ -3,9 +3,10 @@ import threading
 import requests
 import json
 import datetime
+import time
 
 def printit():
-    threading.Timer(10.0, printit).start()
+    #threading.Timer(10.0, printit).start()
 
     #products
     products_url = 'https://api.uber.com/v1/products'
@@ -74,5 +75,7 @@ def printit():
 
     print "one loop : %s" % filename
 
+    time.sleep(5)
+    printit()
 
 printit()
