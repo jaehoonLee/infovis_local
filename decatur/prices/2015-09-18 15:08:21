@@ -1,0 +1,69 @@
+{
+    "prices": [
+        {
+            "localized_display_name": "uberX", 
+            "distance": 5.53, 
+            "display_name": "uberX", 
+            "product_id": "6d898741-0175-4c71-ad5f-93fc66270d6a", 
+            "high_estimate": 13, 
+            "surge_multiplier": 1.0, 
+            "minimum": 5, 
+            "low_estimate": 9, 
+            "duration": 987, 
+            "estimate": "$9-13", 
+            "currency_code": "USD"
+        }, 
+        {
+            "localized_display_name": "uberXL", 
+            "distance": 5.53, 
+            "display_name": "uberXL", 
+            "product_id": "171a12a5-5b08-40cc-bfb0-416b9256147a", 
+            "high_estimate": 23, 
+            "surge_multiplier": 1.0, 
+            "minimum": 8, 
+            "low_estimate": 17, 
+            "duration": 987, 
+            "estimate": "$17-23", 
+            "currency_code": "USD"
+        }, 
+        {
+            "localized_display_name": "UberSELECT", 
+            "distance": 5.53, 
+            "display_name": "UberSELECT", 
+            "product_id": "3d3dff24-c799-45ba-ad08-3d72c5b843b1", 
+            "high_estimate": 51, 
+            "surge_multiplier": 2.1, 
+            "minimum": 10, 
+            "low_estimate": 41, 
+            "duration": 987, 
+            "estimate": "$41-51", 
+            "currency_code": "USD"
+        }, 
+        {
+            "localized_display_name": "UberBLACK", 
+            "distance": 5.53, 
+            "display_name": "UberBLACK", 
+            "product_id": "aff35634-a71e-470f-8c7b-703dec02e15b", 
+            "high_estimate": 36, 
+            "surge_multiplier": 1.0, 
+            "minimum": 15, 
+            "low_estimate": 29, 
+            "duration": 987, 
+            "estimate": "$29-36", 
+            "currency_code": "USD"
+        }, 
+        {
+            "localized_display_name": "UberSUV", 
+            "distance": 5.53, 
+            "display_name": "UberSUV", 
+            "product_id": "852310f8-a778-4191-bb7b-8c5f9a9899f6", 
+            "high_estimate": 50, 
+            "surge_multiplier": 1.0, 
+            "minimum": 25, 
+            "low_estimate": 41, 
+            "duration": 987, 
+            "estimate": "$41-50", 
+            "currency_code": "USD"
+        }
+    ]
+}
