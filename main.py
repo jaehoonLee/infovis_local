@@ -72,5 +72,7 @@ def printit():
     text_file.write(json.dumps(data, indent=4))
     text_file.close()
 
+    print "one loop : %s" % filename
+
 
 printit()
