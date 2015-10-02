@@ -14,7 +14,7 @@ def printit():
 
     for i in range(0, 8):
         print str(loc[i]) + ":" + str(latitude[i]) +',' + str(longtitude[i])
-        #filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         #print (loc[i] + '/products/%s') % filename
 
         #products
@@ -27,7 +27,7 @@ def printit():
 
         response = requests.get(products_url, params=parameters)
         data = response.json()
-        filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        #filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         text_file = open((loc[i] + '/products/%s') % filename, "w")
         text_file.write(json.dumps(data, indent=4))
         text_file.close()
@@ -44,7 +44,7 @@ def printit():
 
         response = requests.get(url, params=parameters)
         data = response.json()
-        filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        #filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         text_file = open((loc[i] + '/prices/%s') % filename, "w")
         text_file.write(json.dumps(data, indent=4))
         text_file.close()
@@ -59,7 +59,7 @@ def printit():
 
         response = requests.get(url, params=parameters)
         data = response.json()
-        filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        #filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         text_file = open((loc[i] + '/times/%s') % filename, "w")
         text_file.write(json.dumps(data, indent=4))
         text_file.close()
@@ -76,7 +76,7 @@ def printit():
 
         response = requests.get(url, params=parameters)
         data = response.json()
-        filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        #filename = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         text_file = open((loc[i] + '/promotion/%s') % filename, "w")
         text_file.write(json.dumps(data, indent=4))
         text_file.close()
