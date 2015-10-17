@@ -6,7 +6,7 @@ import datetime
 import time
 
 def printit():
-    threading.Timer(60.0 * 5, printit).start()
+    threading.Timer(60.0 * 10, printit).start()
 
     loc = ['gt', 'sandy', 'buckhead', 'marietta', 'decatur', 'alpharetta',  'peachtree', 'stone', 'piedmont']
     latitude = [33.775618, 33.9375, 33.8394, 33.9533, 33.7714, 34.0733, 33.3990, 33.8053, 33.783768]
